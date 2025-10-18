@@ -37,8 +37,8 @@ The game combines ball detection and real-time impact detection. Moreover, it of
 
 ---
 
-## 📸 Demonstration
-Video: *(unlisted YouTube link / GIF / screenshots to be added)*
+## 📸 Result
+Video: https://app-fr.vidnoz.com/recording?id=7892200
 
 ---
 
@@ -58,7 +58,7 @@ Video: *(unlisted YouTube link / GIF / screenshots to be added)*
 ---
 
 ## 🔒 Code Confidentiality
-The full source code is not public for academic/confidential reasons.
+The full source code is not public for confidential reasons.
 Access upon request (contact below).
 
 ---
