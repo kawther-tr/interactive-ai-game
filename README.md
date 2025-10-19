@@ -19,7 +19,7 @@ The game combines ball detection and real-time impact detection. Moreover, it of
 ---
 
 ## ⚙️ Technologies
-- **YOLOv8**, **PyTorch**, **OpenCV**, **NumPy**
+- **YOLOv8**, **PyTorch**, **OpenCV**, **NumPy**, **ultralytics**
 - **OpenCV** (BackgroundSubtractorMOG, image processing)
 - **ESP32-CAM**, **USB Cam**, **balls of different shapes and colors**
 - **Pygame** for the projected game interface
