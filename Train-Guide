@@ -1,0 +1,20 @@
+#In Windows CMD
+
+1) Install Python: version 3.8+
+2) Create a Yolo environment: python -m venv yolov8_env
+3) Activate the environment: yolov8_env\Scripts\activate
+4) Install the necessary dependencies: pip install torch torchvision torchaudio (for CPUs: torchversion:2.3.1, torchvisionversion:0.18.1)
+5) Install YOLOv8: pip install ultralytics
+6) Add the data folder and the dataset.yaml file under the project folder with the following structure:
+yolov8_project/
+├── data/
+│ ├── images/
+│ │ ├── train/
+│ │ ├── val/
+│ └── labels/
+│ ├── train/
+│ ├── val/
+└── yolov8.yaml
+7) Add train.py under the same directory
+8) Modify train.py and specify the number of epochs and the batch size (i.e., epochs=100 and batch=4)
+9) Run the train with: python train.py or run: yolo train model=yolov8n.pt data=yolov8.yaml epochs=100 imgsz=640 batch=16
